@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="app.js"></script>
+</head>
+<body>
+    <div class="calculator card">
+        <div data-operand-1 class="calculator-screen bg-warning-subtle text-dark fs-4 pt-3">0</div>
+        <div data-operand-2 class="calculator-screen bg-warning-subtle text-dark">0</div>
+        <div class="calculator-keys">
+          <button data-operation type="button" class="btn btn-info">+</button>
+          <button data-operation type="button" class="btn btn-info">-</button>
+          <button data-operation type="button" class="btn btn-info">&times;</button>
+          <button data-operation type="button" class="btn btn-info">&divide;</button>
+      
+          <button data-number type="button" class="btn btn-light">7</button>
+          <button data-number type="button" class="btn btn-light">8</button>
+          <button data-number type="button" class="btn btn-light">9</button>
+      
+          <button data-number type="button" class="btn btn-light">4</button>
+          <button data-number type="button" class="btn btn-light">5</button>
+          <button data-number type="button" class="btn btn-light">6</button>
+      
+          <button data-number type="button" class="btn btn-light">1</button>
+          <button data-number type="button" class="btn btn-light">2</button>
+          <button data-number type="button" class="btn btn-light">3</button>
+    
+          <button data-number id="zero-btn" type="button" class="btn btn-light">0</button>
+          <button data-number type="button" class="btn btn-secondary">.</button>
+
+          <button data-clear type="button" class="btn btn-danger btn-sm">C</button>
+          <button data-equals type="button" class="equal-sign  btn btn-secondary">=</button>
+        </div>
+      </div>
+</body>
+</html>
