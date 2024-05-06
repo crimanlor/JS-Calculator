@@ -36,3 +36,8 @@ Takes an `operator`, representing the mathematical operator selected by the user
 **Calc()**
 
 Uses the current `operator` and operands to carry out the corresponding mathematical operation. After calculating the result, it updates `operand1` with the result and resets the `operand2` and the `operator`. Finally, it updates the user interface.
+
+## Demo
+You can try out the calculator in action at the following link!
+
+[Click here to try out the calculator live!](https://easy-calc-js.netlify.app/)
