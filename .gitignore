@@ -1,0 +1,4 @@
+# Ignorar archivos específicos de macOS
+.DS_Store
+.AppleDouble
+.LSOverride
